@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <base href="." />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clínica Veterinária PetCare</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <svg
+            class="floating"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="white"
+          >
+            <path
+              d="M4.5 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm10 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm-6 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm11.5-4h-1c0-2.2-1.8-4-4-4h-8c-2.2 0-4 1.8-4 4h-1c-.6 0-1 .4-1 1v8c0 .6.4 1 1 1h1c0 2.2 1.8 4 4 4h8c2.2 0 4-1.8 4-4h1c.6 0 1-.4 1-1v-8c0-.6-.4-1-1-1z"
+            />
+          </svg>
+          <h1>PetCare</h1>
+        </div>
+        <div class="nav-links">
+          <a href="#services">Serviços</a>
+          <a href="#appointment">Agendamento</a>
+          <a href="#contact">Contato</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Cuidando do seu melhor amigo com amor e dedicação</h1>
+      <p>Atendimento veterinário de qualidade para todos os tipos de pets</p>
+      <a href="#appointment" class="btn">Agende uma Consulta</a>
+    </section>
+
+    <section id="services" class="services">
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="var(--primary)">
+          <path
+            d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 10h2v2H6v-2zm0 4h8v2H6v-2zm10 0h2v2h-2v-2zm-6-4h8v2h-8v-2z"
+          />
+        </svg>
+        <h3>Consultas de Rotina</h3>
+        <p>Acompanhamento completo da saúde do seu pet</p>
+      </div>
+
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="var(--primary)">
+          <path
+            d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"
+          />
+        </svg>
+        <h3>Vacinação</h3>
+        <p>Programa completo de vacinação para cães e gatos</p>
+      </div>
+
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="var(--primary)">
+          <path
+            d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14h-2v-2h2v2zm0-4h-2V7h2v6z"
+          />
+        </svg>
+        <h3>Cirurgias</h3>
+        <p>Procedimentos cirúrgicos com equipamentos modernos</p>
+      </div>
+    </section>
+
+    <section id="appointment" class="appointment-form">
+      <h2>Agende uma Consulta</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="pet">Nome do Pet:</label>
+          <input type="text" id="pet" required />
+        </div>
+        <div class="form-group">
+          <label for="date">Data:</label>
+          <input type="date" id="date" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Observações:</label>
+          <textarea id="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn">Agendar</button>
+      </form>
+    </section>
+
+    <footer id="contact">
+      <p>Clínica Veterinária PetCare</p>
+      <p>Telefone: (86) 1234-5678</p>
+      <p>Email: contato@petcare.com</p>
+      <p>Endereço: Rua dos Pets, 123 - Parnaíba/PI</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
