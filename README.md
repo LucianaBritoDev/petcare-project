@@ -1,6 +1,6 @@
 # petcare-project
 
-Website template with the theme “veterinary clinic”. Developed with HTML, SCSS and JavaScript.
+Website template with the theme “veterinary clinic”. Developed with HTML, SCSS and Javascript.
 
 <img width="934" alt="img1" src="https://github.com/user-attachments/assets/0e90dac8-151c-4673-8435-9a50b02fa7cb">
 <img width="933" alt="img2" src="https://github.com/user-attachments/assets/ef0c698a-8ba8-41e0-a120-b26a2808e113">
